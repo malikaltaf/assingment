@@ -1,0 +1,278 @@
+.fa {
+    padding: 17px;
+    font-size: 05px;
+    width: 02px;
+    text-align: center;
+    text-decoration: none;
+    background:#2a09e2;
+    color: white;
+}
+.fa:hover {
+        opacity: 0.7;
+      }
+.icons{
+    background-color:#2a09e2;
+    padding-left: 120px;  
+    z-index: 999;
+    position: relative; 
+    bottom: 22px; 
+    /* width: 97%; */
+    padding-bottom: -10px;
+   
+}
+.main{
+    margin-left: 150px;
+    display: inline;
+    color: white;
+   }
+.inter{
+    padding: 7px;
+    margin-left: 150px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.don{
+    padding: 7px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.smit{
+    padding: 7px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.act{
+    padding: 15px;
+    background-color: whitesmoke;
+    width: 98%;
+    position: fixed;
+    top: 0px; 
+    padding-bottom: 1px;
+}
+.sala{
+    margin-left: 120px;
+    padding-bottom: 2px;
+}
+.one{
+    display: inline;
+    margin-left: 280px;
+    padding: 10px;
+    list-style: none;
+    background: #f2f2f2;
+    
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+}
+ul li a{
+    display: block;
+    padding: 8px 25px;
+    color: #333;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(241, 232, 232);
+    background: #2a09e2;
+}
+ul li ul.dropdown{
+    min-width: 100%; /* Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    display: inline-block; /* Display the dropdown */
+}
+ul li ul.dropdown li{
+    display: block;
+    text-align: match-parent;
+}
+.active{
+    background-color: #2a09e2;
+}
+.line{
+    background-color: #2a09e2;
+    color: #f2f2f2;
+    padding: 03px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 4px;
+}
+.big{
+    background-color: aliceblue;
+    padding: 5px;
+}
+h1{
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -90px;
+}
+.textt{
+    text-align: justify;
+}
+.tot{
+    background-color:#f2f2f2 ;
+    color: black;
+    padding: 150px;
+}
+.color{
+    color: forestgreen;
+}
+.colo{
+    color: blue;
+}
+body{
+    text-align: center;
+}
+.domain{
+    background-color: #2a09e2;
+    display: flex; 
+    /* width: 100%;  */
+    font-size: 12px;
+    justify-content: space-between;
+    padding: 70px;
+    flex-wrap: wrap;
+}
+.dast, .fam, .med, .edu {
+    background-color: #2a09e2;border: #2a09e2;
+    color: white;
+    width: 250px;
+    
+}
+.green{
+    color: rgb(10, 243, 10);
+}
+h3{
+    color: blue;
+    font-size: 30px;
+}
+.gre{
+    color: forestgreen;
+}
+.oran{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color:#f2f2f2;
+    padding: 40px;
+}
+.pre , .nur , .pup {
+    border: 2px solid #f2f2f2;
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    /* -moz-box-shadow: 5px 5px 5px 5px #777777;
+-webkit-box-shadow: 5px 5px 5px 5px #777777; */
+box-shadow: inset 0 0 10px #777777;
+}
+.ambe{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bari{
+    background-color: #ffffff;
+    
+}
+.boxer{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.box ,.boxe {
+    border: 2px solid #dbdbdb;
+    background-color: #f2f2f2;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+}
+.headi{
+    color: blue ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 30px;
+}
+.bago{
+    font-size: ;
+    font-weight: bold;
+    color: blue;
+}
+h5{
+    color: blue ;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.synt{
+    border: 2px solid #777777 ;
+    height: 200px;
+    width: 300px;
+}
+.endi{
+    position: absolute;
+    right: 250px;
+    top: 2200px;
+}
+.usem{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.a{
+    padding-right: 31em;
+}
+.c{
+    padding-right: 41em;
+}
+.d{
+    padding-right: 40em; 
+}
+.e{
+    padding-right: 40em;
+}
+.f{
+    padding-right: 41em;
+}
+.black{
+    display: flex;
+    width: 100%;
+    background-color:#25272e ; 
+}
+h6{
+    color: #bbb;
+    font-size: 18px;
+    padding-top: 100px;
+}
+.whiter{
+    color: #bbb;
+   padding-right: 30em;
+}
+.inline{
+    color: #bbb;
+    padding: 50px;
+}
+.footer{
+    background-color: cornflowerblue;
+   width: 100;
+
+}
+.foot{
+    color: #bbb;
+    padding: 20px;
+    padding-right: 40em;
+}
+.goto{
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+}
+.j , .k , .l , .m , .n{
+    border: 1px solid #dbdbdb;
+}
